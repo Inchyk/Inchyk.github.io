@@ -1,0 +1,37 @@
+h2 {
+    color: rgb(86, 7, 94);
+    font-size: 26px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+li {
+    color: rgb(46, 3, 48);
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+caption {
+    text-align: center;
+    font-size: 26px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(46, 3, 48);
+    font-weight: 700;
+    font-style: italic;
+}
+
+th {
+    font-style: italic;
+}
+
+a {
+    color: rgb(120, 33, 124);
+}
+
+td {
+    color: rgb(86, 7, 94);
+}
+
+h1 {
+    color: rgb(191, 46, 199);
+    text-align: left;
+}
