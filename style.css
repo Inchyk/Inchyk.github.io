@@ -1,13 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 233, 207);
+    position: absolute;
+    width: 98%;
+}
+
+.content {
+    padding-left: 10%;
+    padding-right: 10%;
+    width: fit-content;
+    margin-left: 10%;
+}
+
+.sidebar {
+    padding: 15px;
+    margin-right: 5%;
+    height: 100%;
+    max-width: fit-content;
+    background-color: rgb(214, 209, 184);
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
 h2 {
     color: rgb(86, 7, 94);
     font-size: 26px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: sans-serif;
+    text-align: left;
 }
 
 li {
     color: rgb(46, 3, 48);
     font-size: 18px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.years {
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    text-align: right;   
+    color: rgb(46, 3, 48);
+    padding-right: 10%; 
+}
+
+.education {
+    box-sizing: border-box;
+    display: inline;
 }
 
 caption {
@@ -21,17 +65,104 @@ caption {
 
 th {
     font-style: italic;
-}
-
-a {
-    color: rgb(120, 33, 124);
+    text-align: left;
 }
 
 td {
     color: rgb(86, 7, 94);
 }
 
-h1 {
-    color: rgb(191, 46, 199);
+a {
+    color: rgb(120, 33, 124);
+}
+
+a:hover {
+    color: rgb(55, 7, 65);
+}
+
+header {
+    color: rgb(86, 12, 90);
     text-align: left;
+    position: fixed;
+}
+
+img {
+    margin: 20px 5% 20px 5%;
+    float: left;
+    width: 205px;
+    height: 205px;
+}
+
+.contacts {
+    padding-top: 50px;
+    font-size: 16px;
+}
+
+table {
+    width: fit-content;
+    height: 170px;
+    position: relative;
+    margin: 20px 10% 20px 2%;
+    padding: 0 2% 0 2%;
+    outline-style: dashed;
+    outline-width: 2.5px;
+    outline-color: rgb(86, 12, 90);
+    font-size: 16px;
+}
+
+.info {
+    margin-right: 10%;
+    margin-top: 20px;
+    position: absolute;
+}
+
+p {
+    font-size: 14px;
+}
+
+strong {
+    font-size: 20px;
+}
+
+.container{
+    width: fit-content;
+    border-top: 1px solid rgb(46, 3, 48);
+    border-bottom: 1px solid rgb(46, 3, 48);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+}
+
+.box {
+    padding: 5px 10px 5px 10px;
+    height: 100%;
+    /* vertical-align: middle; */
+    text-align: center;
+    display: inline-block;
+}
+
+@media (max-width: 768px) {
+
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    table {
+        padding: 0;
+        margin: 0;
+    }
+
+    .content {
+        padding: 0;
+        margin: 0 0 0 2%;
+    }
+
+    .sidebar {
+        display: none;
+    }
+    
+    .container {
+        text-align: center;
+        padding: 0;
+    }
 }
