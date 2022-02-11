@@ -3,24 +3,22 @@
 }
 
 body {
-    background-color: rgb(238, 233, 207);
-    position: absolute;
+    background-color: rgb(232, 207, 238);
     width: 98%;
 }
 
 .content {
-    padding-left: 10%;
     padding-right: 10%;
     width: fit-content;
-    margin-left: 10%;
+    margin-left: 300px;
 }
 
 .sidebar {
     padding: 15px;
     margin-right: 5%;
     height: 100%;
-    max-width: fit-content;
-    background-color: rgb(214, 209, 184);
+    width: 300px;
+    background-color: rgb(196, 114, 212);
     position: fixed;
     z-index: 1;
     top: 0;
@@ -38,6 +36,7 @@ li {
     color: rgb(46, 3, 48);
     font-size: 18px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
 
 .years {
